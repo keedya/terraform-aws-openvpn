@@ -9,8 +9,6 @@ variable "public_subnet_id"  {}
 variable "key_name"           { default = ""}
 variable "ami"                { default = ""}
 variable "instance_type"      { default = ""}
-variable "bastion_host"       { default = ""}
-variable "bastion_user"       { default = ""}
 variable "openvpn_admin_user" { default = "openvpn"}
 variable "openvpn_admin_pw"   { default = "password"}
 variable "vpn_cidr"           { default = ""}

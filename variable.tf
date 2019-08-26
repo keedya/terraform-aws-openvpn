@@ -7,11 +7,10 @@ variable "secret_key" {
 }
 
 variable "name" {}
-variable "region" {}
 variable "ami_id" {}
-variable "zone_id" {}
 variable "instance_type" {}
 variable "vpc_id" {}
+variable "region" {}
 variable "vpc_cidr" {}
 variable "public_subnet_id" {}
 variable "admin_user" {}
